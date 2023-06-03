@@ -13,6 +13,7 @@ use std::fs::File;
 use std::cmp::Ordering;
     
 pub fn array_example() {
+    // array only can have same data type in the list
     let arr_1 = [1,2,3,4,5];
     println!("1st: {}", arr_1[0]);
     println!("Length: {}", arr_1.len());
@@ -38,5 +39,10 @@ pub fn array_example() {
     while loop_idx < arr_1.len() {
         println!("Arr: {}", arr_1[loop_idx]);
         loop_idx += 1;
+    }
+    // for loop
+    println!("-------for loop-------");
+    for val in arr_1.iter() {
+        println!("Val {}", val);
     }
 }

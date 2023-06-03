@@ -8,6 +8,8 @@ mod numbertypes;
 mod if_statement;
 mod match_statement;
 mod array_use;
+mod tuple_use;
+mod string_use;
 
 fn main() {
     //userinput::io_func();
@@ -15,5 +17,7 @@ fn main() {
     //numbertypes::num_type();
     //if_statement::if_example();
     //match_statement::match_example();
-    array_use::array_example();
+    //array_use::array_example();
+    //tuple_use::tuple_example();
+    string_use::string_example();
 }
