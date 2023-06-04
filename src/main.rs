@@ -10,11 +10,9 @@ mod match_statement;
 mod array_use;
 mod tuple_use;
 mod string_use;
-mod function_use;
-mod generic_use;
-mod stack_heap_use;
-mod hash_map_use;
-mod struct_use;
+mod cast_use;
+mod enum_use;
+mod vector_use;
 
 fn main() {
     //userinput::io_func();
@@ -24,5 +22,8 @@ fn main() {
     //match_statement::match_example();
     //array_use::array_example();
     //tuple_use::tuple_example();
-    string_use::string_example();
+    //string_use::string_example();
+    //cast_use::cast_example();
+    //enum_use::enum_example();
+    vector_use::vector_example();
 }
