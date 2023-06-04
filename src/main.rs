@@ -20,6 +20,8 @@ mod hash_map_use;
 mod struct_use;
 mod restaurant;
 use crate::restaurant::order_food;
+mod file_io_use;
+mod iterator_use;
 
 fn main() {
     //userinput::io_func();
@@ -39,7 +41,9 @@ fn main() {
     //hash_map_use::hasp_map_example();
     //struct_use::struct_example();
     //module_use::module_example();
-    // code in restaurant folder
-    order_food();
+    // ----code in restaurant folder
+    //order_food();
+    //file_io_use::file_io_example();
+    iterator_use::iterator_example();
 }
 
