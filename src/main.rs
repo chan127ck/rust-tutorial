@@ -18,6 +18,8 @@ mod generic_use;
 mod stack_heap_use;
 mod hash_map_use;
 mod struct_use;
+mod restaurant;
+use crate::restaurant::order_food;
 
 fn main() {
     //userinput::io_func();
@@ -35,6 +37,9 @@ fn main() {
     //generic_use::generic_example();
     //stack_heap_use::stack_heap_example();
     //hash_map_use::hasp_map_example();
-    struct_use::struct_example();
+    //struct_use::struct_example();
+    //module_use::module_example();
+    // code in restaurant folder
+    order_food();
 }
 
