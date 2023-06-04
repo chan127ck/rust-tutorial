@@ -13,6 +13,11 @@ mod string_use;
 mod cast_use;
 mod enum_use;
 mod vector_use;
+mod function_use;
+mod generic_use;
+mod stack_heap_use;
+mod hash_map_use;
+mod struct_use;
 
 fn main() {
     //userinput::io_func();
@@ -25,5 +30,11 @@ fn main() {
     //string_use::string_example();
     //cast_use::cast_example();
     //enum_use::enum_example();
-    vector_use::vector_example();
+    //vector_use::vector_example();
+    //function_use::function_example();
+    //generic_use::generic_example();
+    //stack_heap_use::stack_heap_example();
+    //hash_map_use::hasp_map_example();
+    struct_use::struct_example();
 }
+
