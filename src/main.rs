@@ -10,6 +10,11 @@ mod match_statement;
 mod array_use;
 mod tuple_use;
 mod string_use;
+mod function_use;
+mod generic_use;
+mod stack_heap_use;
+mod hash_map_use;
+mod struct_use;
 
 fn main() {
     //userinput::io_func();
