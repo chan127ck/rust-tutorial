@@ -22,6 +22,8 @@ mod restaurant;
 use crate::restaurant::order_food;
 mod file_io_use;
 mod iterator_use;
+mod closure_use;
+mod smart_pointer_use;
 
 fn main() {
     //userinput::io_func();
@@ -44,6 +46,8 @@ fn main() {
     // ----code in restaurant folder
     //order_food();
     //file_io_use::file_io_example();
-    iterator_use::iterator_example();
+    //iterator_use::iterator_example();
+    //closure_use::closure_example();
+    smart_pointer_use::smart_pointer_example();
 }
 
