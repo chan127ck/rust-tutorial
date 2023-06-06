@@ -24,6 +24,7 @@ mod file_io_use;
 mod iterator_use;
 mod closure_use;
 mod smart_pointer_use;
+mod concurrency_use;
 
 fn main() {
     //userinput::io_func();
@@ -48,6 +49,7 @@ fn main() {
     //file_io_use::file_io_example();
     //iterator_use::iterator_example();
     //closure_use::closure_example();
-    smart_pointer_use::smart_pointer_example();
+    //smart_pointer_use::smart_pointer_example();
+    concurrency_use::concurrency_example();
 }
 
